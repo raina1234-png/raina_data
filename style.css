@@ -1,0 +1,53 @@
+/* Gaya Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fce4ec; /* Pink sangat muda */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+h2 { color: #d81b60; text-align: center; }
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f06292; /* Pink Medium */
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #f8bbd0;
+    text-align: left;
+}
+
+tr:hover { background-color: #fff1f5; }
+
+/* Tombol */
+.btn-tambah {
+    display: inline-block;
+    background: #ec407a;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.btn-edit { color: #4caf50; text-decoration: none; font-weight: bold; }
+.btn-hapus { color: #f44336; text-decoration: none; font-weight: bold; margin-left: 10px; }
